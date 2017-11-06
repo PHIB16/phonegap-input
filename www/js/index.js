@@ -8,10 +8,11 @@ $(document).on("pagecreate","#pageone",function(){
 function submitText() {
 	var inpText = $('#textinput').val();
 	alert(text);
-    storeValue();
+    storeValue("StoredItem", inpText);
 }
 
 function storeValue(key, value) {
     
-	window.localStorage.setItem("storedValue", inpText);
+    
+	window.localStorage.setItem(key, value);
 }
