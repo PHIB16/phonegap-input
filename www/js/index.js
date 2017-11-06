@@ -7,7 +7,7 @@ $(document).on("pagecreate","#pageone",function(){
 
 function submitText() {
 	var inpText = $('#textinput').val();
-	alert(text);
+	alert(inpText);
     storeValue("StoredItem", inpText);
 }
 
