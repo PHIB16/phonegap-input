@@ -6,10 +6,10 @@
         id        = "mob.app.dev.lifecycle"
         version   = "1.0.1">
 
-    <name>Application Storage Test</name>
+    <name>Application Input Test</name>
 
     <description>
-        A sample application that counts the occurances of lifecycle events.
+        
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
