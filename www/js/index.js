@@ -6,10 +6,18 @@ $(document).on("pagecreate","#pageone",function(){
 
 
 function submitText() {
-	var text = $('#textinput').val();
+	var inpText = $('#textinput').val();
 	alert(text);
 }
 
 function storeValue(key, value) {
-	//add some code to store the key-value pair in persistant storage 
+	window.localStorage.setItem(
+    
+    "storedValue",
+        
+        inpText;
+    
+    
+    
+    );
 }
